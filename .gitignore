@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets. .env.example is the safe template and is deliberately kept.
+.env
+.env.*
+!.env.example
+
+data/*.db
+data/*.db-journal
+ml/mlruns/
+ml/mlflow.db
+node_modules/
+dist/
+.pytest_cache/
+*.egg-info/
+
+# Local run logs and scratch files
+*.log
+_dump*.py
+_err_*.txt
+_out_*.txt
